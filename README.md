@@ -2,10 +2,6 @@
 > [!WARNING]
 > **An Anime Game Launcher is a project by An Anime Team. I have no direct connection or communication with the project managers.**
 
-```bash
-sudo eopkg install https://github.com/kayrakrh/an-anime-game-launcher-eopkg/releases/download/v3.19.7/an-anime-game-launcher-3.19.7-4-1-x86_64.eopkg
-```
-
 | Modern style | Classic style |
 | :-: | :-: |
 | <picture><source media="(prefers-color-scheme: dark)" srcset="repository/main-modern-dark.png"><img src="repository/main-modern.png"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="repository/main-classic-dark.png"><img src="repository/main-classic.png"></picture> |
@@ -17,51 +13,30 @@ sudo eopkg install https://github.com/kayrakrh/an-anime-game-launcher-eopkg/rele
     <a href="https://github.com/an-anime-team/an-anime-game-launcher/wiki">Wiki</a>
 </p>
 
-<br>
-
-# ♥️ Useful links and thanks
-
-* [macOS launcher](https://github.com/3Shain/yet-another-anime-game-launcher) which contains some additional compatibility components
-* [Wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki) contains some basic FAQ, installation instructions and more
-* [Releases page](https://github.com/an-anime-team/an-anime-game-launcher/releases) where you can find latest available version
-* [Changelog](CHANGELOG.md) with chronology of the project
-
-All the project's life happen in our discord server. If you have any questions or want to report an issue - please contact the dev directly there.
-
-<br>
-
 # ⬇️ Download
 
-Launcher developer does not provide any packages for this program. Instead, we almost fully rely on other people to maintain them.
-
-To see the installation guides, please visit [this wiki page](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation).
-
-Instructions may be outdated due to lack of interest in maintaining them. You can help the project by keeping documentation up to date if you're interested in it.
+## EOPKG
+```bash
+sudo eopkg install https://github.com/kayrakrh/an-anime-game-launcher-eopkg/releases/download/v3.19.7/an-anime-game-launcher-3.19.7-4-1-x86_64.eopkg
+```
 
 ## 😀 Official support
 
-These packages are officially supported by the An Anime Team, and we try to ensure that they work for everyone.
+These packages are officially supported by the An Anime Team
 
 | Format | Wiki | Source | Distributions | Maintainer |
 | - | - | - | - | - |
 | Flatpak | [wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation#-any-distribution-flatpak) | [Flathub](https://flathub.org/apps/moe.launcher.an-anime-game-launcher) | Any (Fedora, Pop!_OS, SteamOS / Steam Deck, etc.) | NelloKudo |
-| RPM | [wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation#-fedora-rpm) | [AAGL](https://build.opensuse.org/repositories/home:Maroxy:AAT-Apps/AAGL) * | Fedora, OpenSUSE | Maroxy (second discord admin) |
-
-> [!NOTE]
-> RPM packages are often really outdated. It's not recommended to use them.
 
 ## 🙂 Community support
 
-These packages are supported by active members of our community. They're widely used and we keep some level of interactions with their maintainers.
+These packages are supported by active members of AAGL community
 
 | Format | Wiki | Source | Distributions | Maintainer |
 | - | - | - | - | - |
 | AUR | [wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation#-arch-linux-aur) | [an-anime-game-launcher-bin](https://aur.archlinux.org/packages/an-anime-game-launcher-bin) | Arch Linux, Manjaro, EndeavourOS | xstra * |
 | NixOS module | [wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation#-nixos-nixpkg) | [aagl-gtk-on-nix](https://github.com/ezKEa/aagl-gtk-on-nix) | NixOS | Luxxy * |
 | Ebuild | [wiki](https://github.com/an-anime-team/an-anime-game-launcher/wiki/Installation#gentoo) | [aagl-ebuilds](https://github.com/an-anime-team/gentoo-ebuilds) * | Gentoo | johnthecoolingfan * |
-
-> [!NOTE]
-> Honorary members of our discord server. We have direct contact with them.
 
 ## 😑 Third party support
 
@@ -72,18 +47,4 @@ These packages are supported by third party distributors. They either did not co
 | DEB | [an-anime-game-launcher](https://launchpad.net/~thundergemios10/+archive/ubuntu/an-anime-game-launcher) | Ubuntu, Linux Mint, Pop!_OS |
 | Pacstall | [an-anime-game-launcher-bin](https://pacstall.dev/packages/an-anime-game-launcher-bin) | Ubuntu |
 
-## Chinese version support
-
-This should be automatically enabled if you're using `zh_cn` (Chinese) as your system language. If you're not using it - you can change the game edition in the launcher settings.
-
-The main problem, though, is that github is blocked in China, and it's used in other parts of the launcher - not just in game edition. Notably, you can't use the same components index as other people do.
-
-To fix this, you have to make your own copy of the [components](https://github.com/an-anime-team/components) repository and change all the links there from github releases to some mirror. Later you can update the components index repo link in your launcher's `config.json` file.
-
-If you have any questions - feel free to contact the dev in our discord server (or if you have no way to use discord - try sending me an email, but it's unlikely to be received).
-
-<br>
-
-# 🚧 Project status
-
-This project is in maintenance mode and is considered feature complete. It will continue to receive updates with bugfixes and support for new versions of the game. The various contributors help keep this project alive by keeping it up to date with latest game changes. I'm working on other projects, and the future is in uniting all the launchers in one single [universal launcher](https://github.com/an-anime-team/anime-games-launcher). This project stays in "proof of concept" stage right now and requires major changes, which, again, require interest from my side. Keep your eye on our discord server for more details.
+EOPKG is here too
